@@ -1,0 +1,267 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 10px 25px;
+    
+  background-color: #360a0c;
+}
+
+.logo {
+    width: 120px;
+}
+.hello{
+    display: flex;
+      gap: 15px;
+      padding: 0;
+      margin: 0;
+}
+
+button {
+    background: #e50914;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: #f40612;
+}
+  
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.start {
+    position: relative; 
+     
+    background-color: #360a0c;
+}
+
+
+.center {
+    width: 80%; 
+    height: 600px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid white;
+    border-radius: 50px;
+    filter: blur(4px);
+}
+
+#hero-text {
+    position: absolute; 
+    top: 80%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center; 
+    z-index: 1;
+    background-color: none;
+}
+
+#hero-text h1 {
+    font-size: 3em; 
+    margin: 0;
+    text-shadow: 
+        2px 2px 0 rgba(0, 0, 0, 0.7), 
+        -2px -2px 0 rgba(0, 0, 0, 0.7), 
+        2px -2px 0 rgba(0, 0, 0, 0.7), 
+        -2px 2px 0 rgba(0, 0, 0, 0.7);
+        background-color: none; 
+}
+
+#hero-text p {
+    font-size: 1.5em; 
+    margin: 0; 
+    margin-top: 10px; 
+    text-shadow: 
+        1px 1px 0 rgba(0, 0, 0, 0.7), 
+        -1px -1px 0 rgba(0, 0, 0, 0.7), 
+        1px -1px 0 rgba(0, 0, 0, 0.7), 
+        -1px 1px 0 rgba(0, 0, 0, 0.7);
+        background-color: none;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-gallery {
+    display: flex; 
+    flex-direction: column;     
+    padding: 20px; 
+    margin-left: 100px;
+}
+
+.gallery-heading {
+    font-size: 40px; 
+    margin-bottom: 15px; 
+    color: #aeadad; 
+    text-align:start; 
+}
+
+.image-container {
+    display: flex; 
+    align-items: center; 
+    overflow-x: auto; 
+}
+
+.gallery-image {
+    width: 200px; 
+    height: auto; 
+    margin-right: 10px; 
+    border: solid;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.gallery-image:hover {
+    transform: scale(1.1); 
+}
+
+.arrow-container {
+    display: flex; 
+    align-items: center; 
+    margin-left: 10px; 
+}
+
+.arrow {
+    font-size: 24px; 
+    cursor: pointer; 
+    color: #007bff; 
+    transition: color 0.3s; 
+}
+
+.arrow:hover {
+    color: #0056b3; 
+}
+#faq {
+    margin-top: 20px;
+  }
+  
+  #faq-dropdown {
+    margin-top: 40px;
+  }
+  
+  details {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  details:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  summary {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 24px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    transition: height 1s ease;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after {
+    content: "\002B";
+  }
+  
+  details[open] summary div{
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  details[open] summary:after {
+    content: "\00D7";
+  }
+  
+  details[open] div {
+    padding: 8px 16px;
+  }
+  
+  #content-container {
+    color: #fff;
+    margin-top: 10px;
+    padding: 0px 148px;
+  }
+
+.last{
+    
+    border-radius: 50px;
+    
+    margin-left: 42%;
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 150%;
+    
+}
+footer {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+footer>p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: #757575;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.language-select {
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.language-select:hover {
+    background-color: #444;
+}
